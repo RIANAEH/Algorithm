@@ -1,8 +1,5 @@
 ''' 2021 카카오 채용 연계형 인턴십 : 거리두기 확인하기 '''
 
-dx = [-1, 1, 0, 0]
-dy = [0, 0, -1, 1]
-
 def solution(places):
     answer = []
     for p in places:
@@ -10,6 +7,8 @@ def solution(places):
     return answer
 
 def check(p):
+    dx = [-1, 1, 0, 0]
+    dy = [0, 0, -1, 1]
     for x in range(5):
         for y in range(5):
             if p[x][y] == "P":
