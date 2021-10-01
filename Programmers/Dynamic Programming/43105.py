@@ -1,6 +1,4 @@
 def solution(triangle):
-    answer = 0
-
     # dp 테이블을 생성한다. 
     dp = [[triangle[0][0]]]
     for i in range(1, len(triangle)):
