@@ -1,4 +1,5 @@
 def solution(people, limit):
+    # 2명이 제한임을 잘 보자
     answer = 0
     people.sort()
     i = 0
